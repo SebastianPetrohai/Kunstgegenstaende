@@ -47,6 +47,16 @@ namespace Kunstgegenstaende;
     /// </summary>
     /// <param name="preis">Der Wert des Kunstgegenstandes</param>
     public void SetPreis(double preis) {  _preis = preis; }
+    /// <summary>
+    /// Liest den Status aus
+    /// </summary>
+    /// <returns>gibt Status aus</returns>
+    public bool GetVerkaufbar() {  return _verkaufbar; }
+    /// <summary>
+    /// Setzt den Status
+    /// </summary>
+    /// <param name="verkaufbar">true, falls verkaufbar</param>
+    public void SetVerkaufbar(bool verkaufbar) {  _verkaufbar = verkaufbar; }
     
 }
 
