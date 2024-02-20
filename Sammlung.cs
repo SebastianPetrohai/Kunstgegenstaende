@@ -16,8 +16,9 @@ namespace Kunstgegenstaende
         }
         public bool Add(Kunstgegenstand k)
         {
-            if (k.GetPreis() >= 100)
+            if (k.GetPreis() >= 100 || k.GetVerkaufbar() = false)
             {
+                _kunstgegenstaende.Add(k);
                 return true;
             }
             else
