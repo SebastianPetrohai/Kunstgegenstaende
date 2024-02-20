@@ -1,1 +1,3 @@
 # Kunstgegenstaende
+
+![UML](Kunstgegenstaende.png)
