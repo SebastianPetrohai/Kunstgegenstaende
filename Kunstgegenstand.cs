@@ -32,5 +32,6 @@ namespace Kunstgegenstaende;
         _titel = titel;
         _verkaufbar = verkaufbar;
     }
+    public string GetTitel() {  return _titel; }
 }
 
