@@ -32,6 +32,21 @@ namespace Kunstgegenstaende;
         _titel = titel;
         _verkaufbar = verkaufbar;
     }
+    /// <summary>
+    /// Titel des Kunstgegenstandes
+    /// </summary>
+    /// <returns>Der Name des Gegenstandes</returns>
     public string GetTitel() {  return _titel; }
+    /// <summary>
+    /// Liest den Preis aus
+    /// </summary>
+    /// <returns>Der Wert des Kunstgegenstandes</returns>
+    public double GetPreis() {  return _preis; }
+    /// <summary>
+    /// Setzt den Preis
+    /// </summary>
+    /// <param name="preis">Der Wert des Kunstgegenstandes</param>
+    public void SetPreis(double preis) {  _preis = preis; }
+    
 }
 
