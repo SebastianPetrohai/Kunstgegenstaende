@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Kunstgegenstaende;
+
+Kunstgegenstand mensch = new("Mensch");
+Kunstgegenstand tisch = new("Tisch", true);
+Kunstgegenstand ball = new("Ball");
+Kunstgegenstand tischGroß = new("Tisch groß",true);
