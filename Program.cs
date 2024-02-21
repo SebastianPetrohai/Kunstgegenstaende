@@ -15,6 +15,6 @@ Kunstgegenstand tischGroß = new("Tisch groß",true);
 tischGroß.SetPreis(150);
 s1.Add(tischGroß);
 
-Console.WriteLine("Anzahl der Kunstgegenstände"+);
+Console.WriteLine("Anzahl der Kunstgegenstände:"+ s1.GetAnzahl);
 
 
